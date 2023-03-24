@@ -70,19 +70,5 @@ public class App {
         int jugador = scanner.nextInt();
         crearJugador(jugador);
         scanner.close();
-
-        /*
-        Jugador principiante = new Principiante();
-        principiante.setNombre("Andres");
-        principiante.setVidas(5);
-        principiante.andar(5,10);
-
-        Avanzado avanzado = new Avanzado(100);
-
-        avanzado.setNombre("Andres rotisimo");
-        avanzado.setVidas(5);
-        avanzado.andar(15,20);
-        avanzado.conducir(5, 6, 70);
-        */
     }
 }
