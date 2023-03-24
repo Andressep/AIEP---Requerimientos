@@ -5,6 +5,11 @@ public abstract class Jugador {
     public Jugador() {
     }
 
+    public Jugador(String nombre, int vidas) {
+        this.nombre = nombre;
+        this.vidas = vidas;
+    }
+
     public abstract void andar(int x, int y);
 
     public String getNombre() {
